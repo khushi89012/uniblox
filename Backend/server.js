@@ -2,18 +2,18 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-app.use(bodyParser.json()); // To parse JSON request bodies
+app.use(bodyParser.json());
 
 // In-memory stores for carts, orders, and discount codes
 const cartStore = {};
 const orderStore = [];
 const discountCodes = [];
 let orderCount = 0;
-const nthOrder = 3; // Every 3rd order gets a discount
+const nthOrder = 3;
 
 // Helper to generate random discount codes
 function generateDiscountCode() {
-  return `DISC${Math.floor(1000 + Math.random() * 9000)}`; 
+  return 'DISC' + Math.floor(1000 + Math.random() * 9000); 
 }
 
 // Route to add items to the cart
@@ -33,6 +33,7 @@ app.post('/cart/add', (req, res) => {
   return res.status(200).json({ message: 'Item added to cart' });
 });
 
+
 // Route to checkout and place an order
 app.post('/checkout', (req, res) => {
   const { user_id, discount_code } = req.body;
@@ -41,6 +42,7 @@ app.post('/checkout', (req, res) => {
     return res.status(400).json({ error: 'Cart is empty or invalid user' });
   }
 
+  
   // Calculate total (for simplicity, assume each item costs $10)
   let total = cartStore[user_id].reduce((sum, item) => sum + item.quantity * 10, 0);
 
@@ -93,8 +95,12 @@ app.get('/admin/report', (req, res) => {
   });
 });
 
-// Start the server
-const PORT = 8080;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// Export app for testing
+module.exports = app;
+
+const PORT = 3000;
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
