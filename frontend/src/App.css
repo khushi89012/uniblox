@@ -1,0 +1,78 @@
+/* General container for the admin dashboard */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.generate-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+/* Report container */
+.report-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card styling */
+.report-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Report details */
+.report-details {
+  font-size: 16px;
+  color: #555;
+}
+
+.report-details p {
+  margin: 10px 0;
+}
+
+.report-details span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Loading text styling */
+.report-card p {
+  font-size: 14px;
+  color: #999;
+}
