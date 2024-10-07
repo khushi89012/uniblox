@@ -62,14 +62,14 @@ This project implements a shopping cart system where users can add items, apply 
 ## Screenshots
 
 ### 1. Cart Addition and Coupon Application
-![Cart](https://github.com/user-attachments/assets/5d7b7497-ac16-49b0-ba03-b4bdc286891d)
+![Cart]https://github.com/user-attachments/assets/5d7b7497-ac16-49b0-ba03-b4bdc286891d
 
 
 ### 2. Checkout Process
-![Checkout](![Screenshot 2024-10-07 115127](https://github.com/user-attachments/assets/4db9a9d6-9aff-4a26-9c11-7c027a0468d9))
+![Checkout]Screenshot 2024-10-07 115127](https://github.com/user-attachments/assets/4db9a9d6-9aff-4a26-9c11-7c027a0468d9)
 
 ### 3. Admin Page (Coupons and Sales Overview)
-![Admin](![Screenshot 2024-10-07 115151](https://github.com/user-attachments/assets/68605975-d11e-442f-98b2-68538527a7ca))
+![Admin]Screenshot 2024-10-07 115151](https://github.com/user-attachments/assets/68605975-d11e-442f-98b2-68538527a7ca)
 
 ## Technologies Used
 
