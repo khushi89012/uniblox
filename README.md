@@ -72,7 +72,6 @@ This project implements a shopping cart system where users can add items, apply 
 ## Technologies Used
 
 - **Frontend**: React.js, HTML, CSS
-- **Backend**: Node.js, Express.js (if applicable)
-- **Database**: MongoDB / MySQL (if applicable)
-- **Others**: Docker, AWS (if applicable)
+- **Backend**: Node.js, Express.js
+
 
