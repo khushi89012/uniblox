@@ -67,7 +67,7 @@ This project implements a shopping cart system where users can add items, apply 
 ![Checkout](https://github.com/user-attachments/assets/4db9a9d6-9aff-4a26-9c11-7c027a0468d9)
 
 ### 3. Admin Page (Coupons and Sales Overview)
-![Admin](https://github.com/user-attachments/assets/68605975-d11e-442f-98b2-68538527a7ca))
+![Admin](https://github.com/user-attachments/assets/68605975-d11e-442f-98b2-68538527a7ca)
 
 ## Technologies Used
 
