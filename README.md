@@ -1,5 +1,3 @@
-Based on your description, here's a simple README structure for your project that covers the cart addition, coupon application, checkout process, and admin page:
-
 ---
 
 # Shopping Cart and Admin Panel
