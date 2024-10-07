@@ -62,13 +62,14 @@ This project implements a shopping cart system where users can add items, apply 
 ## Screenshots
 
 ### 1. Cart Addition and Coupon Application
-![Cart](image-link-here)
+![Cart](https://github.com/user-attachments/assets/5d7b7497-ac16-49b0-ba03-b4bdc286891d)
+
 
 ### 2. Checkout Process
-![Checkout](image-link-here)
+![Checkout](![Screenshot 2024-10-07 115127](https://github.com/user-attachments/assets/4db9a9d6-9aff-4a26-9c11-7c027a0468d9))
 
 ### 3. Admin Page (Coupons and Sales Overview)
-![Admin](image-link-here)
+![Admin](![Screenshot 2024-10-07 115151](https://github.com/user-attachments/assets/68605975-d11e-442f-98b2-68538527a7ca))
 
 ## Technologies Used
 
@@ -77,14 +78,3 @@ This project implements a shopping cart system where users can add items, apply 
 - **Database**: MongoDB / MySQL (if applicable)
 - **Others**: Docker, AWS (if applicable)
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Feel free to replace the `image-link-here` placeholders with actual image paths or URLs of your uploaded images once they are hosted. Let me know if you need help with hosting the images or if you'd like to add more details to the README!
